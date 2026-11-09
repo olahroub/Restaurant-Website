@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        #nav {
+            display:block;
+            background-color:rgb(206, 200, 200);
+            width:50px; height:290px;
+            padding:10px;
+            float:left;
+        }
+        #nav a{
+            text-align:center;
+            color:white;
+            text-decoration:none;
+            font-size:10px;
+        }
+        #nav a:active{
+            color:rgb(5, 1, 53);
+        }
+        #nav a:hover{
+            color:rgb(5, 1, 53);
+        }
+
+        #menu {
+            list-style-type:none; 
+            overflow:hidden;
+            border:1px solid black;
+            border-radius:10px;
+            padding:30px;
+            background-color:black;
+            width:65%;
+        }
+
+        #menu li {
+            float:left;
+            
+        }
+
+        #menu li a{
+            text-align:center;
+            display:inline; 
+            text-decoration:none;
+            font-size:15px;
+            color:rgb(177, 174, 174);
+            padding:40px;
+        }
+
+        #menu li a:hover{
+            color:white;
+            font-size:16px;
+        }
+
+        #menu li a:active{
+            color:white;
+        }
+
+        #ul {
+            list-style-type:none; 
+            overflow:hidden;
+            padding-left:400px;
+            
+        }
+        #ul li {
+            float:left;
+        }
+        #ul li b{
+            color:white
+        }
+        #ul li a{
+            text-align:center;
+            display:inline; 
+            text-decoration:none;
+            font-size:15px;
+            color:white;
+            padding:40px;
+        }
+        #logo{
+            list-style-type:none;
+            overflow:hidden;
+            padding-left:400px;
+        }
+        #logo li img{
+            width:40px; height:40px;
+            padding:40px;
+            display:inline; 
+        }
+        #logo li{
+            float:left;
+        }
+        #logo li img:hover{
+            width:50px; height:50px;
+        }
+   
+    </style>
+</head>
+<body style="background-color:rgb(243, 243, 243);">
+    <div id="nav">
+        <img src="logo.png" style="width:60px; background-color:gray;">
+        <a href="home.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contacts.html">CONTACTS</a>
+    </div>
+
+    <div style="background-image:url(img.jpg);
+    background-repeat:no-repeat;
+    height:300px;
+    background-size:100% 100% ;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:5px;">
+
+    <h1 style="text-align:center;"> WELCOME </h1>
+    <h2>——</h2>
+    <p style="text-align:center;"> Our restaurant offers full-service dining with breathtaking views </p>
+    <p>seen from our indoor covered patio and our outdoor sundeck</p>
+</div>
+
+<div style="height:350px; padding-top:50px; padding-left:60px;">
+    <img src="woman.png" 
+    style="background-image:url(img2.jpg);
+    float:left; background-size:100% 100%;
+    height:300px; width:300px;">
+
+    <h1 style="color:black; float:left; padding-left:100px; font-size:45px;">About Us</h1>
+    <p style="float:left; color:gray; margin:20px; padding-left:100px;">Pesto is a family owned and operated Italian Restaurant offering a combination of fresh ingredients and authentic Italian cooking.
+
+    <p style="color:gray; text-align:center; margin:10px; padding-left:100px; float:left; width:800px;">We will make sure you are served the most authentic and fresh Italian dishes, while offering the best customer service. Our kitchen is committed to providing our guests with the best Italian Cuisine.</p> 
+</div> 
+
+<div style="background-color:white; padding-bottom:40px;">
+    <div>
+        <h1 style="color:black; text-align:center; padding-top:40px;">Featured Offers</h1>
+        <p style="color:gray; text-align:center; margin:10px; padding-bottom:40px;">We offer a great variety of the best Italian dishes to our visitors and guests. Below are some of our most popular main dishes and desserts.</p>
+    </div>
+
+    <div style="display:inline; margin:20px;">
+        <img src="img3.jpg" style="width:300px; height:300px; padding-left:100px;">
+        <img src="img4.jpg" style="width:300px; height:300px; padding-left:100px;">
+        <img src="img5.jpg" style="width:300px; height:300px; padding-left:100px;">
+    </div>
+
+    <div>
+        <h3 style="padding-left:230px; display:inline;">Ravioli</h3>
+        <h3 style="padding-left:340px; display:inline;">Black Pasta</h3>
+        <h3 style="padding-left:350px; display:inline;">Gelato</h3>
+    </div>
+
+    <div>
+        <h3 style="padding-left:250px; display:inline; color:green;">$8</h3>
+        <h3 style="padding-left:390px; display:inline; color:green;">$13</h3>
+        <h3 style="padding-left:405px; display:inline; color:green;">$4</h3>
+    </div>
+</div>
+
+
+<div>
+    <h1 id="menu1" style="text-align:center; padding-top:70px; padding-bottom:20px; font-size:40px;">Our Restaurant Menu</h1>
+    <div style="padding-left:350px;">
+    <ul id="menu">
+        <li style="padding-left:100px;"><a href="#main"><b>MAINS</a></b></li>
+        <li><a href="#desserts"><b>DESSERTS</b></a></li>
+        <li><a href="#drinks"><b>DRINKS</b></a></li>
+    </ul>
+    
+    <b id="main" style=" color:rgb(78, 77, 77); padding-top:20px;">MAINS</b>
+
+    <div style="background-color:white; width:65%; padding-left:80px; padding-bottom:20px;">
+
+        <h3 style="color:green; padding-top:20px;">$25.89</h3>
+        <h2>Osso Buco</h2>
+        <p style="width:620px; color:gray">Osso Buco is one of the Italian greats - slow cooked veal in a white wine tomato sauce. Meltingly tender, this is both hearty and luxurious.</p>
+        
+        <h3 style="color:green; padding-top:30px;">$16.89</h3>
+        <h2>Pappardelle Mimmo</h2>
+        <p style="width:620px; color:gray">This delicious dish tops long, wide pasta with scallops, lobster, asparagus, butter, sage and truffle oil to cater every palate.</p>
+    
+        <h3 style="color:green; padding-top:30px;">$17.89</h3>
+        <h2>Trippa Satriano</h2>
+        <p style="width:620px; color:gray">Thinly sliced herb encrusted ahi tuna topped with diced tomatoes, olives, capers, red onions and fennel. Perfect choice even for the first-time visitors!</p>
+    
+        <h3 style="color:green; padding-top:30px;">$18.89</h3>
+        <h2>Filetto Di Manzo</h2>
+        <p style="width:620px; color:gray">Wonderful combination of prime tenderloin, winter greens, Jerusalem artichoke puree, and oxtail reduction sauce.</p>
+
+    </div>
+
+<br>
+<br>
+
+<b id="desserts" style=" color:rgb(78, 77, 77); padding-top:20px; ">DESSERTS</b>
+
+    <div style="background-color:white; width:65%; padding-left:80px; padding-bottom:20px;">
+
+        <h3 style="color:green; padding-top:20px;">$20.89</h3>
+        <h2>Tiramisu</h2>
+        <p style="width:620px; color:gray">A Pesto’s favorite - classic Italian dessert made with lady fingers, Mascarpone cheese & espresso. Perfect for both kids and adults.</p>
+        
+        <h3 style="color:green; padding-top:30px;">$6.89</h3>
+        <h2>Cannoli</h2>
+        <p style="width:620px; color:gray">Trio tower of cannoli filled with smooth ricotta, sugar & cinnamon, with chocolate & raspberry sauces. Single cannoli is also available.</p>
+    
+        <h3 style="color:green; padding-top:30px;">$5.89</h3>
+        <h2>Pistachio Passion</h2>
+        <p style="width:620px; color:gray">Layered pistachio cream, cream cheese custard & whipped cream atop a rich walnut crust.</p>
+    
+        <h3 style="color:green; padding-top:30px;">$4.89</h3>
+        <h2>Chocolate-and-Pistachio Biscotti</h2>
+        <p style="width:620px; color:gray">At Pesto, we vary these wonderful nutty biscotti, while also dipping them in melted dark chocolate for an extra layer of flavor.</p>
+    </div>
+
+        <br>
+        <br>
+
+        <b id="drinks" style=" color:rgb(78, 77, 77); padding-top:20px; ">DRINKS</b>
+
+    <div style="background-color:white; width:65%; padding-left:80px; padding-bottom:20px;">
+
+        <h3 style="color:green; padding-top:20px;">$10.89</h3>
+        <h2>Aperol Spritz</h2>
+        <p style="width:620px; color:gray">The most popular drink in Venice: refreshing, easygoing &…happy! Perfect to be sipped as an “Aperitivo” just before dinner - delightful!</p>
+        
+        <h3 style="color:green; padding-top:30px;">$9.89</h3>
+        <h2>Negroni</h2>
+        <p style="width:620px; color:gray">Reward yourself with a moment of relaxation & pure pleasure while enjoying the full flavour & simplicity of a Negroni, an iconic Italian cocktail.</p>
+    
+        <h3 style="color:green; padding-top:30px;">$11.89</h3>
+        <h2>Negroni Sbagliato</h2>
+        <p style="width:620px; color:gray">A cocktail for those who prefer more delicate flavours but nonetheless want a drink full of taste & personality.</p>
+    
+        <h3 style="color:green; padding-top:30px;">$8.89</h3>
+        <h2>White Peach Bellini</h2>
+        <p style="width:620px; color:gray">White Peach Bellini is a classic drink from Venice Italy of white peach purée and Prosecco. It is one of our most popular drinks at Pesto.</p>
+    </div>
+    
+</div>
+</div>
+
+
+<div style="float:left; padding-top:60px; padding-bottom:50px; background-color:rgb(243, 243, 243);">
+    <img src="img2.jpg" style="width:440px; height:327px; padding-left:5px;">
+    <img src="f1.jpg" style="width:440px; height:327px;">
+    <img src="f2.jpg" style="width:440px; height:327px;">
+    <img src="f3.jpg" style="width:650px; height:310px; padding:5px;">
+    <img src="f4.jpg" style="width:650px; height:315px;">
+</div>
+
+<br>
+<br>
+
+    <center>
+ <div style="background-color:rgb(66, 65, 65); padding-top:60px;">
+    <img src="logo.png" style="padding-top:50px;">
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+    <ul id="ul">
+        <li><a href="#menu1"><b>MENU</a></b></li>
+        <li><b>|</b></li>
+        <li><a href="home.html"><b>HOME </b></a></li>
+        <li><b>|</b></li>
+        <li><a href="contacts.html"><b>CONTACTS</b></a></li>
+        <li><b>|</b></li>
+        <li><a href="about.html"><b>ABOUT</b></a></li>
+    </ul>
+    </div>
+
+    <div>
+        <ul id="logo">
+            <li><img src="facebook.png"></li>
+            <li><img src="instagram.png"></li>
+            <li><img src="twitter.png"></li>
+            <li><img src="youtube.png"></li>
+        </ul>
+        </div>
+<br>
+<br>
+<br>
+        <div style="padding-bottom:50px;">
+            <p style="color:rgb(156, 152, 152);">©  2023 Pesto. All Rights Reserved. Privacy Policy. Design by Templatemonster</p>
+        </div>
+</div>
+</div>
+  </center>
+</body>
+</html>
